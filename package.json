@@ -1,0 +1,32 @@
+{
+  "name": "twilio-sms-server",
+  "version": "1.0.0",
+  "description": "making an sms server to fire from frontend to user mobile",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/younusraza909/Twilio-Sms-Server.git"
+  },
+  "author": "Younus Raza",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-pino-logger": "^4.0.0",
+    "node-env-run": "^3.0.2",
+    "nodemon": "^1.19.4",
+    "npm-run-all": "^4.1.5",
+    "pino-colada": "^1.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/younusraza909/Twilio-Sms-Server/issues"
+  },
+  "homepage": "https://github.com/younusraza909/Twilio-Sms-Server#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "twilio": "^3.64.0"
+  }
+}
